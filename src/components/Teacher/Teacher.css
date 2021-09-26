@@ -1,3 +1,18 @@
 .button-color{
     background-color: #6047EC;
 }
+.techer-color{
+    /* background-color: #; */
+    color: #6047EC;
+}
+.button-color-1{
+    border: 1px solid #6047EC;
+}
+.span-icon{
+    color: #6047EC;
+    font-size: 25px;
+    margin: 10px 5px 0 30px;
+}
+.span-icon i{
+    margin: 5px 2px 0 2px;
+}

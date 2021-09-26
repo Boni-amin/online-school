@@ -1,5 +1,6 @@
 import React from 'react';
 import TeacherName from '../TeacherName/TeacherName';
+import './TeacherCard.css'
 
 const TeacherCard = (props) => {
   const {teachersCard} = props || {};
@@ -12,8 +13,8 @@ const TeacherCard = (props) => {
   // console.log(teachersCard)
     return (
         <div>
-        <div className="card p-3 bg-warning">
-          <h5 className="card-title"><i className="fas fa-user-friends text-center"></i>Add Member: {teachersCard.length}</h5>
+        <div className="card p-3 card-bg-color">
+          <h5 className="card-title"><i className="fas fa-user-friends text-center"></i> Add Member: {teachersCard.length}</h5>
           <h6>Total Salary amount: ${total}</h6>
           <ul>
             {
